@@ -1,0 +1,23 @@
+.footer .contacts-list{
+    display: block;
+    margin-top: 9px;
+}
+.footer .contact-item:nth-child(2){
+    margin-left: 0;
+    margin-top: 9px;
+}
+.flex{
+    margin-left: 70px;
+}
+.flex-title{
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.footer .item-foot:not(:last-child){
+    margin-right: 10px;
+}

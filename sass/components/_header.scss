@@ -1,0 +1,60 @@
+.section.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.container.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+
+ color: var(--primary-text-color);
+}
+.logo span{
+ color: var(--accent-color);
+}
+
+nav{
+    margin-left: 93px;
+}
+
+.nav-list{
+display: flex;
+}
+
+.nav-item:not(:first-child){
+margin-left: 54px;
+}
+.nav-link
+.contact-link{
+    /* font-family: 'Roboto'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+.contacts-list{
+display: flex;
+margin-left: auto;
+}
+.contact-item:not(:first-child){
+    margin-left: 50px;
+}
+.contact-link{
+    color: var(--secondary-text-color);
+}
