@@ -79,12 +79,6 @@ justify-content: center;
 .customers-list{
     display: flex;
 }
-.text{
-    width: 270px;
-}
-.main-text{
-    margin-bottom: 10px;
-}
 .name{
     margin-bottom: 10px;
     text-align: center;
@@ -142,96 +136,4 @@ justify-content: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
      0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-// портфоліо 
-body{
-    font-family: "Roboto", sans-serif;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-.list{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-.item:not(:first-child){
-    margin-left: 8px;
-}
-.section.header{
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-.container.nav{
-    display: flex;
-    align-items: center;
-}
-.logo{
-    font-family: 'Raleway';
- font-style: normal;
- font-weight: 700;
- font-size: 26px;
- line-height: 31px;
- letter-spacing: 0.03em;
-
- color: var(--primary-text-color);
-}
-.logo span{
- color: var(--accent-color);
-}
-
-nav{
-    margin-left: 93px;
-}
-
-.nav-list{
-display: flex;
-}
-
-.nav-item:not(:first-child){
-margin-left: 54px;
-}
-.nav-link
-.footer-link{
-    /* font-family: 'Roboto'; */
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: var(--primary-text-color);
-}
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus{
-    color: var(--accent-color);
-}
-.contacts-list{
-display: flex;
-margin-left: auto;
-}
-.contact-item:not(:first-child){
-    margin-left: 50px;
-}
-.contact-link{
-    color: var(--secondary-text-color);
-}
-/* приклади робіт */
-.button:hover,
-.button:focus{
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-    0px 1px 2px rgba(0, 0, 0, 0.08), 
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.examlpes{
-   display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
 }
