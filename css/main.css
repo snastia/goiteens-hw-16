@@ -47,19 +47,16 @@ ul {
 @media screen and (min-width: 480px) {
   .section {
     width: 480px;
-    background-color: tomato;
   }
 }
 @media screen and (min-width: 768px) {
   .section {
     width: 768px;
-    background-color: green;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
     width: 1200px;
-    background-color: orange;
   }
 }
 
