@@ -418,10 +418,15 @@ nav {
 }
 
 .fetures-box {
-  width: 270px;
   background-color: #F5F4FA;
-  padding: 25px 100px;
   margin-bottom: 30px;
+  width: 270px;
+  padding: 25px 100px;
+}
+@media screen and (min-width: 480px) {
+  .fetures-box {
+    padding: 25px 190px;
+  }
 }
 
 .section.footer {

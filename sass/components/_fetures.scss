@@ -10,8 +10,13 @@
     height: 70px;
 }
 .fetures-box{
-    width: 270px;
     background-color: #F5F4FA;
-    padding: 25px 100px;
     margin-bottom: 30px;
+    @media screen and (min-width: $mobile) {
+        padding: 25px 190px;
+    }
+
+    width: 270px;
+
+    padding: 25px 100px;  
 }
