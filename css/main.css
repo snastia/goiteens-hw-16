@@ -401,8 +401,27 @@ nav {
   margin-bottom: 10px;
 }
 
-.fetures-items {
+@media screen and (min-width: 1200px) {
+  .fetures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.fetures-item {
+  width: 70px;
+  height: 70px;
+}
+
+.fetures-box {
   width: 270px;
+  background-color: #F5F4FA;
+  padding: 25px 100px;
+  margin-bottom: 30px;
 }
 
 .section.footer {
