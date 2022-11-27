@@ -5,38 +5,3 @@
 .fetures-items{
 width: 270px;
 }
-.customers-list{
-    display: flex;
-}
-
-.customers-item:not(:last-child){
-    margin-right: 30px;
-}
-
-.customers-link{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 170px;
-    height: 90px;
-    border: 1px solid var(--svg);
-    color: var(--svg);
-    border-radius: 4px;
-}
-
-.customers-link:hover,
-.customers-link:focus{
-    border: 1px solid var(--accent-color);  
-    color: var(--accent-color); 
-}
-
-.customers-icon{
-    fill: currentColor;
-}
-.text{
-    width: 270px;
-}
-.main-text{
-    margin-bottom: 10px;
-}

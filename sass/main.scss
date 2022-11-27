@@ -10,6 +10,7 @@
 @import "./components/modal";
 @import "./components/fetures";
 @import "./components/footer";
+@import "./components/customers";
 
 @import "./footer/join";
 @import "./footer/adderess";
@@ -45,6 +46,17 @@
 /* футер */
 
 /* соцмережі людей, команда*/
+.title{
+    text-align: center;
+    color:#212121;
+    margin-bottom: 50px;
+}
+.item-human{
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .list-rb{
     display: flex;
     justify-content: space-between;
@@ -113,22 +125,6 @@ justify-content: center;
 .icon-link{
     color: #757575;
 }
-.fetures-item{
-    width: 70px;
-    height: 70px;
-}
-.fetures-box{
-    width: 270px;
-    background-color: #F5F4FA;
-    padding: 25px 100px;
-    margin-bottom: 30px;
-}
-.customers-list{
-    display: flex;
-}
-.text{
-    width: 270px;
-}
 .main-text{
     margin-bottom: 10px;
 }
@@ -151,18 +147,6 @@ justify-content: center;
     margin-bottom: 50px;
 }
 // постійні клієнти
-
-.title{
-    text-align: center;
-    color:#212121;
-    margin-bottom: 50px;
-}
-.item-human{
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-     0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-}
 
 // портфоліо 
 
