@@ -24,3 +24,26 @@
 
     // padding: 25px 100px;  
 }
+.fetures-item:not(:last-child){
+    @media screen and (max-width: 767px) {
+         margin-bottom: 30px;
+       }
+}
+.main-text{
+    font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+margin-bottom: 10px;
+}
+.text{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: var(-secondary-text-color);
+
+}
