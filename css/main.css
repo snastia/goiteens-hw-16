@@ -420,8 +420,15 @@ nav {
 .fetures-box {
   background-color: #F5F4FA;
   margin-bottom: 30px;
-  width: 270px;
-  padding: 25px 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media screen and (min-width: 480px) {
   .fetures-box {
