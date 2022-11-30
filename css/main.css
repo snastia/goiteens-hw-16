@@ -401,20 +401,10 @@ nav {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1200px) {
-  .fetures {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+@media screen and (max-width: 767px) {
+  .fetures-item:not(:last-child) {
+    margin-bottom: 30px;
   }
-}
-
-.fetures-item {
-  width: 70px;
-  height: 70px;
 }
 
 .fetures-box {
@@ -436,10 +426,20 @@ nav {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .fetures-item:not(:last-child) {
-    margin-bottom: 30px;
+@media screen and (min-width: 1200px) {
+  .fetures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
+}
+
+.fetures-item {
+  width: 70px;
+  height: 70px;
 }
 
 .main-text {

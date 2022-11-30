@@ -1,13 +1,7 @@
-.fetures{
-    @media screen and (min-width: $desktop) {
-     display: flex;
-     justify-content: space-between;    
-    }
-    
-}
-.fetures-item{
-    width: 70px;
-    height: 70px;
+.fetures-item:not(:last-child){
+    @media screen and (max-width: 767px) {
+         margin-bottom: 30px;
+       }
 }
 .fetures-box{
     background-color: #F5F4FA;
@@ -24,10 +18,18 @@
 
     // padding: 25px 100px;  
 }
-.fetures-item:not(:last-child){
-    @media screen and (max-width: 767px) {
-         margin-bottom: 30px;
-       }
+.fetures{
+ 
+
+    @media screen and (min-width: $desktop) {
+     display: flex;
+     justify-content: space-between;    
+    }
+    
+}
+.fetures-item{
+    width: 70px;
+    height: 70px;
 }
 .main-text{
     font-weight: 700;
