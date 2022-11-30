@@ -1,3 +1,10 @@
+.fetures-items{
+    @media screen and (min-width: $tablet){
+      margin: 15px;
+    width: calc((100% - 60px) / 2);  
+    }
+    
+}
 .fetures-item:not(:last-child){
     @media screen and (max-width: 767px) {
          margin-bottom: 30px;
@@ -19,17 +26,14 @@
     // padding: 25px 100px;  
 }
 .fetures{
- 
-
+     @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+     }
     @media screen and (min-width: $desktop) {
-     display: flex;
      justify-content: space-between;    
     }
-    
-}
-.fetures-item{
-    width: 70px;
-    height: 70px;
 }
 .main-text{
     font-weight: 700;
