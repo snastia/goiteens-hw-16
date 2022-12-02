@@ -401,6 +401,13 @@ nav {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .fetures-items {
+    margin: 15px;
+    width: calc((100% - 60px) / 2);
+  }
+}
+
 @media screen and (max-width: 767px) {
   .fetures-item:not(:last-child) {
     margin-bottom: 30px;
@@ -426,20 +433,27 @@ nav {
   }
 }
 
-@media screen and (min-width: 1200px) {
+.fetures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
   .fetures {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fetures {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-}
-
-.fetures-item {
-  width: 70px;
-  height: 70px;
 }
 
 .main-text {
@@ -509,16 +523,6 @@ nav {
 
 .footer .item-foot:not(:last-child) {
   margin-right: 10px;
-}
-
-.customers-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.customers-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .customers-link {
@@ -891,54 +895,6 @@ nav {
 /* секція особливості */
 /* футер */
 /* соцмережі людей, команда*/
-.title {
-  text-align: center;
-  color: #212121;
-  margin-bottom: 50px;
-}
-
-.item-human {
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.list-rb {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.list .item {
-  margin: 30px;
-}
-
-.list-human {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.item-human:not(:last-child) {
-  margin-right: 30px;
-}
-
-.img {
-  width: 270px;
-  height: 260px;
-  margin: 10px;
-}
-
-.section.hero {
-  text-align: center;
-}
-
 .email {
   width: 16px;
   height: 12px;
@@ -954,81 +910,12 @@ nav {
   fill: currentColor;
 }
 
-.link {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: white;
-  color: #AFB1B8;
-}
-
-.link:hover,
-.link:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
-}
-
-.icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .telephone2 {
   color: var(--secondary-text-color);
 }
 
 .adderess {
   color: #FFFFFF;
-}
-
-.icon-link {
-  color: #757575;
-}
-
-.main-text {
-  margin-bottom: 10px;
-}
-
-.name {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.bottom-name {
-  text-align: center;
-}
-
-.section.our-team {
-  background-color: #F5F4FA;
-}
-
-.main-text2 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.our-job {
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 /* приклади робіт */
