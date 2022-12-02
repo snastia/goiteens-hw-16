@@ -67,7 +67,25 @@
 // оверлей
 
 // кінець портфоліо
-
+.email{
+    width: 16px;
+    height: 12px;
+    color: var(--secondary-text-color);
+    fill: currentColor;
+}
+.telephone{
+    width: 10px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.telephone2{
+    color: var(--secondary-text-color);
+}
+.adderess{
+    color: #FFFFFF;
+}
 /* приклади робіт */
 .button:hover,
 .button:focus{
