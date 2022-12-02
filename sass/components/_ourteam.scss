@@ -6,15 +6,15 @@
     margin: 30px;
 }
 .list-human{
-    @media screen and (min-width: $desktop) {
-        display: flex;
-    justify-content: space-between;
-        
-    }
     @media screen and (min-width: $tablet) {
         display: block;
     }
+    @media screen and (min-width: $desktop) {
+        display: flex;
+    justify-content: space-between;  
+    }
 }
+    
 .item-human:not(:last-child){
     margin-right: 30px;
 }
