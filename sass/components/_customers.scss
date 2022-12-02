@@ -1,11 +1,3 @@
-.customers-list{
-    display: flex;
-}
-
-.customers-item:not(:last-child){
-    margin-right: 30px;
-}
-
 .customers-link{
     display: inline-flex;
     justify-content: center;

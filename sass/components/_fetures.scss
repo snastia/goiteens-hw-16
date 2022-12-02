@@ -26,6 +26,7 @@
     // padding: 25px 100px;  
 }
 .fetures{
+    display: flex;
      @media screen and (min-width: $tablet) {
         display: flex;
         flex-wrap: wrap;
