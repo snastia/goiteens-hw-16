@@ -1,6 +1,7 @@
 .section.header{
     padding-top: 24px;
     padding-bottom: 25px;
+    position: relative;
 }
 
 .menu-button{
@@ -24,6 +25,21 @@
 &.is-open .icon-menu{
     display: none;
 }
+}
+
+.mobile-menu{
+     display: none;
+     position: absolute;
+
+     top: 0;
+     left: 0;
+     width: 480px;
+     height: 100vh;
+     background-color: antiquewhite;
+
+     &.is-open{
+        display: block;
+    }
 }
 
 .container.nav{
