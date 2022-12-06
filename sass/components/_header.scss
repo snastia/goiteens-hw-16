@@ -30,9 +30,13 @@
 &.is-open .icon-menu{
     display: none;
 }
+@media screen and (min-width: $tablet) {
+    display: none;
+}
 }
 
 .mobile-menu{
+    @media screen and (max-width: 767px) {
      display: none;
      position: absolute;
 
@@ -40,10 +44,14 @@
      left: 0;
      width: 480px;
      height: 100vh;
-     background-color: antiquewhite;
+    background-color: var(--thirdly-text-color);   
+    }
 
      &.is-open{
         display: block;
+    }
+    @media screen and (min-width: $tablet){
+        display: flex;
     }
 }
 
@@ -94,12 +102,25 @@ color: var(--primary-text-color);
     color: var(--accent-color);
 }
 .contacts-list{
-display: flex;
-margin-left: auto;
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      flex-direction: column;
 }
-.contact-item:not(:first-child){
-    margin-left: 50px;
+    @media screen and (min-width: $desktop) {
+     margin-left: auto;  
+
+     &:not(:first-child) {
+      margin-left: 50px;
+      }
+    }
+
 }
+
 .contact-link{
     color: var(--secondary-text-color);
+}
+.contact-item:first-child{
+    @media screen and (min-width: $tablet){
+        margin-bottom: 10px;
+    }  
 }
