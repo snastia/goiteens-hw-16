@@ -4,13 +4,17 @@
 @import "./base/common";
 
 @import "./utils/utils";
+@import "./variables/mixin";
 
 @import "./components/header";
 @import "./components/hero";
 @import "./components/modal";
 @import "./components/fetures";
+
 @import "./components/footer";
+
 @import "./components/customers";
+@import "./components/ourteam";
 
 @import "./footer/join";
 @import "./footer/adderess";

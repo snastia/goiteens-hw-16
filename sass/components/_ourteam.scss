@@ -19,12 +19,12 @@
     margin-right: 30px;
 }
 .img{
-    width: 270px;
+    @media screen and (min-width: $desktop) {
+        width: 270px;
     height: 260px;
     margin: 10px;
-}
-.section.hero{
-    text-align: center;
+    }
+    
 }
 .link{
     display: inline-flex;
@@ -61,7 +61,11 @@ justify-content: center;
     text-align: center;
 }
 .section.our-team{
-    background-color: #F5F4FA;
+        background-color: #F5F4FA;
+        @media screen and (min-width: $desktop) {
+            background-color: #F5F4FA;
+            width: 1600px;
+        }
 }
 .main-text2{
     text-align: center;
