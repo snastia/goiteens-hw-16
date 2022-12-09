@@ -742,6 +742,16 @@ nav {
             justify-content: space-between;
   }
 }
+@media screen and (min-width: 768px) {
+  .list-human {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -15px;
+  }
+}
 
 .item-human:not(:last-child) {
   margin-right: 30px;
@@ -815,6 +825,12 @@ nav {
     width: 1600px;
   }
 }
+@media screen and (min-width: 768px) {
+  .section.our-team {
+    background-color: #F5F4FA;
+    width: 768px;
+  }
+}
 
 .main-text2 {
   text-align: center;
@@ -830,6 +846,17 @@ nav {
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 480px) {
+  .item-human {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .item-human {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
 }
 
 .section-footer {
