@@ -22,11 +22,14 @@
 .title{
     margin-bottom: 30px;
     text-align: center;
+    margin-right: 200px;
 }
 .text{
     width: 270px;
 }
 .main-text{
+    text-align: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
 .customers-item:not(:last-child){

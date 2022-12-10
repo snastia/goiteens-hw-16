@@ -27,22 +27,39 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
+
 .hero-title{
-    font-style: normal;
+    color: var(--thirdly-text-color);
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    
+    text-align: center;
+
+    width: 360px;
+    color: var(--thirdly-text-color);
+
+ @media screen and (min-width: $tablet) {
+   width: 307px;
+} 
+
+@media screen and (min-width: $desktop) {
+  width: 696px;
+
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* text-align: center; */
 letter-spacing: 0.06em;
-text-transform: uppercase;
-
-width: 696px;
-margin-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
-
-color: var(--thirdly-text-color);
 }
+}
+
 .hero-button{
   display: inline-flex;
   border: none;
