@@ -3,7 +3,24 @@
     padding-bottom: 60px;
 }
 .footer .container{
-    display: flex;
+    @media screen and (min-width: $mobile){
+       align-items: center;
+       width: 480px;
+       height: 603px;
+    }
+    
+    @media screen and (min-width: $tablet){
+        display: flex;
+        width: 768px;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+    }
+    
 }
 
 .footer .logo{
@@ -12,4 +29,11 @@
 .adderess{
     margin-top: 20px;
     color: #FFFFFF;
+}
+.footer-nav{
+    @media screen and (min-width: $mobile){
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
 }

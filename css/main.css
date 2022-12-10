@@ -586,16 +586,6 @@ nav {
   padding-bottom: 60px;
 }
 
-.footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.flex {
-  margin-left: 70px;
-}
-
 .footer .logo {
   color: #fff;
 }
@@ -911,6 +901,11 @@ nav {
   border-radius: 4px;
   background: var(--background-color);
 }
+@media screen and (min-width: 480px) {
+  .footer-input {
+    width: 200px;
+  }
+}
 
 .send-icon {
   margin-left: 13px;
@@ -929,10 +924,35 @@ nav {
   padding-bottom: 60px;
 }
 
-.footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 480px) {
+  .footer .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 480px;
+    height: 603px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 768px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1200px;
+  }
 }
 
 .footer .logo {
@@ -942,6 +962,13 @@ nav {
 .adderess {
   margin-top: 20px;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-nav {
+    margin-bottom: 60px;
+    text-align: center;
+  }
 }
 
 .footer .contacts-list {
@@ -954,8 +981,16 @@ nav {
   margin-top: 9px;
 }
 
-.flex {
-  margin-left: 70px;
+@media screen and (min-width: 480px) {
+  .flex {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .flex {
+    margin-left: 70px;
+  }
 }
 
 .flex-title {

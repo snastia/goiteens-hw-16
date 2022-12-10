@@ -7,9 +7,19 @@
     margin-top: 9px;
 }
 .flex{
-    margin-left: 70px;
+        
+    // margin-left: 50px;
+
+    @media screen and (min-width: $mobile) {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    @media screen and (min-width: $desktop) {
+            margin-left: 70px;
+        }
 }
 .flex-title{
+
     color: #FFFFFF;
     font-weight: 700;
 font-size: 14px;
