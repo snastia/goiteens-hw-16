@@ -1,18 +1,23 @@
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
+    // @media screen and (max-width: $tablet){
+    //     height: 463px;
+    //     width: 768px;
+    // }
 }
 .footer .container{
-    @media screen and (min-width: $mobile){
+    @media screen and (max-width: $mobile){
        align-items: center;
        width: 480px;
        height: 603px;
     }
     
-    @media screen and (min-width: $tablet){
+    @media screen and (max-width: $tablet){
         display: flex;
-        width: 768px;
         flex-wrap: wrap;
+        height: 463px;
+        width: 768px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -31,9 +36,12 @@
     color: #FFFFFF;
 }
 .footer-nav{
-    @media screen and (min-width: $mobile){
+    @media screen and (max-width: $mobile){
         margin-bottom: 60px;
         text-align: center;
+    }
+    @media screen and (max-width: $tablet){
+        margin-left: 168px;
     }
     
 }
