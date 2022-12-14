@@ -3,7 +3,7 @@
     margin: none;
 }
 .footer-text{
-    @media screen and (max-width: $mobile) {
+    @media screen and (min-width: $mobile) {
         margin-left: 115px;
         margin-bottom: 10px;
         text-align: center;
@@ -49,10 +49,10 @@ display: inline-flex;
     margin-left: 70px;
 }
 .footer-input{
-    @media screen and (max-width: $mobile) {
+    @media screen and (min-width: $mobile) {
         width: 50px;
     }
-    @media screen and (max-width: $tablet) {
+    @media screen and (min-width: $tablet) {
         height: 50px;
         width: 300px;
     }
@@ -71,10 +71,13 @@ background: var(--background-color);
 }
 .foot-send-box{
     flex-direction: column;
-    @media screen and (max-width: $mobile) {
+    @media screen and (min-width: $mobile) {
         margin-left: 60px;
     }
-    @media screen and (max-width: $tablet){
+    @media screen and (min-width: $tablet){
         margin-left: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
