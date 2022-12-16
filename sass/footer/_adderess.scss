@@ -12,7 +12,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 700px;
+        // width: 768px;
     }
     @media screen and (min-width: $desktop) {
         align-items: baseline;

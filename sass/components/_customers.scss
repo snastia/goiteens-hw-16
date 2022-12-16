@@ -24,9 +24,6 @@
     text-align: center;
     margin-right: 200px;
 }
-.text{
-    width: 270px;
-}
 .main-text{
     text-align: center;
     justify-content: center;
@@ -34,18 +31,6 @@
 }
 .customers-item:not(:last-child){
     margin-bottom: 30px;
-}
-.customers-list{
-    @media screen and (max-width: 1199px){
-        display: flex;
-        flex-wrap: wrap;
-        margin: -15px;
-    }
-
-    @media screen and (min-width: $desktop){
-        display: flex;
-        margin: -15px;
-    }
 }
 .customers-item{
     @media screen and (max-width: 767px){
