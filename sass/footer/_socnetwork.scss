@@ -7,12 +7,19 @@
     margin-top: 9px;
 }
 .flex{
+    @media screen and (min-width: $mobile) {
+        margin-bottom: 60px;
+        text-align: center;
+        margin-left: 20px;
+    }
     @media screen and (max-width: $mobile) {
         margin-bottom: 60px;
         text-align: center;
-    }
-    @media screen and (max-width: $tablet) {
         margin-left: 20px;
+    }
+    @media screen and (min-width: $tablet) {
+        text-align: center;
+        margin-right: 40px;
     }
     @media screen and (min-width: $desktop) {
             margin-left: 70px;
