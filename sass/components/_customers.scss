@@ -63,3 +63,12 @@
     margin-left: 215px;
  }
 }
+.customers-list{
+    @media screen and (min-width: $tablet) {
+        width: calc((100% - 120px) / 3);  
+    }
+    @media screen and (min-width: $desktop) {
+        display: flex;
+    }
+    
+}

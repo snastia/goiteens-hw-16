@@ -10,6 +10,7 @@
       margin: 15px;
     width: calc((100% - 60px) / 2);  
     height: 120px;
+    margin-bottom: 60px;
     }
     @media screen and (min-width: $desktop) {
         height: 120px;
@@ -35,10 +36,9 @@
         width: 450px;
         height: 120px;
     }
-
-    // width: 270px;
-
-    // padding: 25px 100px;  
+    @media screen and (min-width: $tablet){
+     height: 90px;
+    }
 }
 .fetures{
 

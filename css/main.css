@@ -126,6 +126,7 @@ ul {
   .mobile-menu {
     display: none;
     position: absolute;
+    z-index: 3;
     top: 0;
     left: 0;
     width: 1000px;
@@ -519,6 +520,7 @@ nav {
     margin: 15px;
     width: calc((100% - 60px) / 2);
     height: 120px;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -553,6 +555,11 @@ nav {
     padding: 25px 190px;
     width: 450px;
     height: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fetures-box {
+    height: 90px;
   }
 }
 
@@ -721,6 +728,23 @@ nav {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .customers-list {
+    width: calc((100% - 120px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.list-rb .item:not(:last-child) {
+  margin-right: 15px;
+}
+
 .list-rb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -764,6 +788,7 @@ nav {
     display: -ms-flexbox;
     display: flex;
     margin: -15px;
+    margin-left: 15px;
   }
 }
 
